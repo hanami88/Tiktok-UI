@@ -6,9 +6,9 @@
     @apply flex  items-center;
 }
 .size-16-margin-2 {
-    @apply text-[27px]  mr-4 text-[#F6F6F6];
+    @apply text-[27px]  mr-3 text-[#F6F6F6];
 }
 
 .text-sidebar {
-    @apply text-[18px] font-medium text-[#F6F6F6];
+    @apply text-[18px] font-[450] text-[#F6F6F6];
 }
