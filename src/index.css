@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flex-center {
+    @apply flex  items-center;
+}
+.size-16-margin-2 {
+    @apply text-[27px]  mr-4 text-[#F6F6F6];
+}
+
+.text-sidebar {
+    @apply text-[18px] font-medium text-[#F6F6F6];
+}

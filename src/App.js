@@ -7,7 +7,7 @@ import { Fragment } from 'react';
 function App() {
     return (
         <Router>
-            <div className="App">
+            <div className="App bg-black">
                 <Routes>
                     {publicRoutes.map((value, index) => {
                         let Layout;
