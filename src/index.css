@@ -6,9 +6,13 @@
     @apply flex  items-center;
 }
 .size-16-margin-2 {
-    @apply text-[27px]  mr-3 text-[#F6F6F6];
+    @apply text-[25px]  mr-3 text-[#F6F6F6]  ml-2 group-hover:text-[#FF3B5C];
 }
 
 .text-sidebar {
-    @apply text-[18px] font-[450] text-[#F6F6F6];
+    @apply text-[16px] font-[450] text-[#F6F6F6] group-hover:text-[#FF3B5C];
+}
+
+.hover-sidebar {
+    @apply flex-center w-full h-[40px] rounded-[6px] hover:bg-[#272727] hover:text-[#FF3B5C] cursor-pointer;
 }
