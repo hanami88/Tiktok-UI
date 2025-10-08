@@ -1,10 +1,7 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     faUsers,
     faMagnifyingGlass,
     faEllipsis,
-} from '@fortawesome/free-solid-svg-icons';
-import {
     faCompass,
     faHouse,
     faUser,
@@ -13,10 +10,11 @@ import {
     faCirclePlay,
     faCircleUser,
     faComment,
-} from '@fortawesome/free-regular-svg-icons';
+    FontAwesomeIcon,
+} from '~/icon';
 function Sidebar() {
     return (
-        <div className="h-screen w-[13rem] ml-[1.3rem] flex flex-col justify-between ">
+        <div className="h-screen w-[13rem] ml-[1rem] flex flex-col justify-between ">
             <img
                 src="/picture/logo.png"
                 alt="logo"
